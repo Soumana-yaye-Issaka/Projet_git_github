@@ -1,3 +1,19 @@
+## Enoncé de l'exercice: 
+Exercice N°2
+Branching & Merging
+L'ensemble des instructions suivantes doivent ètre réalisés exclusivement via le terminal, sauf la dernière.
+
+Notez que vous devrez surement installez Github CLI pour cet exercice.
+
+Objectifs : Apprendre à créer des branches, y effectuer des changements et les merger dans la branche main
+
+Depuis un repo clonez du nom: git-learning-2 que vous aurez créez créez une nouvelle branche du nom de myself.
+Créez un fichier about.txt avec des infos sur vous (nom, prénom, lieu de naissance...)
+Faites un commit puis, puis pushez la branche myself.
+Faites un pull request de git-learning-2/myself -> main.
+Mergez le pull request.
+Sur GitHub, vérifier l'historique.
+
 # git-learning-2
 
 Ce projet montre comment utiliser Git et GitHub CLI pour gérer un flux de travail avec branches et Pull Requests.
@@ -25,9 +41,7 @@ git checkout -b myself
 ## 3. Créer un fichier `about.txt` avec vos informations
 
 ```bash
-echo "Nom : Jean Dupont" > about.txt
-echo "Prénom : Jean" >> about.txt
-echo "Lieu de naissance : Paris" >> about.txt
+echo "Nom : Soumana yayé, Prénom: Issaka, Lieu de naissance: Niamey" > about.txt
 ```
 - Crée un fichier `about.txt` et y ajoute vos informations personnelles.
 

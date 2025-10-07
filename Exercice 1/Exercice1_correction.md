@@ -1,3 +1,15 @@
+## Enoncé de l'exercice :
+Exercice N°1
+First Repo & Simple Commit
+L'ensemble des instructions suivantes doivent ètre réalisés exclusivement via le terminal, sauf la dernière.
+
+Objectifs : Comprendre comment créer un repo,y effectuer des changements, et suivre l'historique.
+
+Créez un nouveau repo GitHub appelé git-learning-1.
+Clonez le localement
+Créez un fichier README.md with some text (exemple: "Mon premier projet Git")
+Ajoutez une autre ligne au README.md (votre nom et le numéro de votre MAc), puis faites un commit, puis un push final
+Sur GitHub, vérifier l'historique des commits
 # git-learning-1
 
 Ce projet a pour but d'apprendre les bases de Git et GitHub en ligne de commande.
@@ -31,7 +43,7 @@ echo "Mon premier projet Git" > README.md
 ## Étape 4 : Ajouter une ligne avec ton nom et ton numéro de MAC
 
 ```bash
-echo "Nom: Jean Dupont, MAC: 12345" >> README.md
+echo "Nom: Soumana yayé , MAC: 06" >> README.md
 ```
 - Ajoute une ligne à la fin du fichier `README.md` avec ton nom et ton numéro de MAC.
 

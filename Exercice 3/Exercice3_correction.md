@@ -1,3 +1,24 @@
+# Enoncé de l'exercice :
+Exercice N°3
+Gestion des conflits durant le merging
+L'ensemble des instructions suivantes doivent ètre réalisés exclusivement via le terminal.
+
+Objectifs : Comprendre comment créer un repo,y effectuer des changements, et suivre l'historique.
+
+Créez un nouveau repo GitHub appelé git-learning-3.
+Sur la branche main, ajoutez un nouveau fichier notes.txt avec pour contenu "Ligne écrite depuis la branche main".
+Faites un commit et pushez.
+Créez une branche conflict-test
+Editez note.txt depuis la branche conflict-test et insérez y la phrase "Ligne écrite depuis la branche conflict-test".
+Faites un commit et pushez.
+Revenez à la branche main et remodifiez notes.txt différemment avec la phrase "Ligne écrite depuis la branche main pour la seconde fois".
+Faites un commit et pushez.
+Essayez de merger la branche conflict-test dans main.
+Vous obtiendrez une erreur.
+
+Ouvrez notes.txt depuis votre éditeur de code, et résolvez le conflit manuellement (décidez de gardez les deux lignes).
+Vérifiez la version finale sur Github en ouvrant note.txt.
+
 # git-learning-3
 
 Ce README explique comment générer un conflit Git, puis le résoudre manuellement étape par étape.
